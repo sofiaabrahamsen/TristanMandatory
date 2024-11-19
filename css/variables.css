@@ -1,0 +1,15 @@
+:root {
+    --bodyBgColor: #2c2a4a;
+    --navBgColor: #708090;
+
+    --bodyColor: #fff;
+    --mainColor: #d8c586;
+    --headerColor: #e1c184;
+    --selectorColor: black;
+
+
+    --bodyFont: Arial, Helvetica, sans-serif;
+
+    --homeH2Color: rgb(154, 69, 69);
+    --bgColorHome: #fbf5ed;
+}

@@ -1,0 +1,88 @@
+@import 'styles.css';
+
+#contact{
+    display: block;
+    background-color: var(--bgColorHome);
+
+    h1{
+        color: var(--headerColor);
+        background-color: var(--navBgColor);
+        text-align: left;
+        padding: 1rem;
+    }
+
+    img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 1rem 0;
+    }
+    
+    h2{
+        text-align: left;
+        padding-left: 1rem;
+        color: var(--selectorColor);
+        padding-bottom: 1.5rem;
+    }
+
+    p{
+        text-align: left;
+        padding-left: 1rem;
+        color: var(--selectorColor);
+    }
+    article p:last-of-type{
+        padding-bottom: 1rem;
+    }
+
+    article:first-of-type {
+        border-bottom: 2px solid var(--headerColor);
+    }
+    article:nth-of-type(2) {
+        border-bottom: none;
+    }
+
+    form{
+        color: var(--selectorColor)
+    }
+
+    fieldset {
+        border: thin solid var(--selectorColor);
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 90%;
+        padding: 0.5rem;
+        border: 1px solid var(--selectorColor);
+        border-radius: 0.25rem;
+    }
+    button[type="submit"] {
+        padding: 1rem 1rem;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    article img{
+        float: left;
+        margin-right: 1rem;
+        padding: 0 1.5rem 0 1.5rem;
+    }
+}
+
+
+
+
+
+

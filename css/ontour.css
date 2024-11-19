@@ -1,0 +1,70 @@
+@import 'styles.css';
+
+#ontour{
+    background-color: var(--bgColorHome);
+
+    h1{
+        color: var(--headerColor);
+        background-color: var(--navBgColor);
+        text-align: left;
+        padding: 1rem;
+    }
+
+    img{
+        width: 90%;
+        padding: 1rem;
+    }
+
+    article{
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid var(--headerColor);
+    }
+
+    article p{
+        color: var(--selectorColor);
+        padding-left: 1rem;
+        text-align: left;
+    }
+    article p:nth-of-type(2){
+        color: var(--navBgColor);
+        font-weight: bold;
+    }
+    p:nth-of-type(3){
+        color: var(--homeH2Color);
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 1980px) {
+    #ontour img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 0.5rem;
+    }
+
+    #ontour .articles-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    #ontour article {
+        flex: 1 1 48%;
+        padding: 0.5rem;
+        border: 2px solid var(--mainColor);
+        border-radius: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
